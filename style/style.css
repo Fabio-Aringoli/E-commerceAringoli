@@ -4,7 +4,7 @@
     font-family: 'PT Sans Caption', sans-serif;
     letter-spacing: 1.5px;
 }
-/*-------------------HEADER///CARRUSEL------------------*/
+
 header{
     background-color: rgb(238, 85, 85);
     border: 1px solid black;
@@ -28,11 +28,11 @@ header{
     background-color: black;
     padding: 2px;
 }
-/*------------------NAV-----------------------*/
+
 nav{
     display: grid;
 }
-/*------------------LISTA----------------*/
+
 ul{
   margin: 1.5px;
   display: flex;
@@ -57,16 +57,14 @@ a:hover{
     text-decoration: underline;
     height: 30px;
     width: 30px;
-    /*------------------------GIT/LINKS-------------------------*/
     background-color: white; 
     box-shadow: 5px 5px rgb(218, 15, 15);
     border: 1px solid rgb(218, 15, 15);
-    /*----------------------------------------------------*/
     border-radius: 25%;
     padding: 5px;
     transition: all 1s;
 }
-/*------------------H1-H2-H3-P-----------------*/
+
 h1{
     text-align: center;
     text-decoration: underline;
@@ -95,14 +93,14 @@ p{
     margin: 2vh;
     font-weight: 700;
 }
-/*-----------------IMAGENES GENERALES---------------*/
+
 img{
     margin: 25px;
     border: 3px solid lightgray;
     width: 200px;
     height: 190px;   
 }
-/*-----------------------------------------------------------------------*/
+
 .producto-base{
     display: flex;
     justify-content: flex-end;
@@ -112,7 +110,7 @@ img{
     align-items: center;
     height: 395px;
     width: 300px;
-    border: 3px solid rgb(218, 15, 15);
+    border: 3px solid lightgray;
     padding: 5px;
     margin: 28px;
     border-radius: 20%;
@@ -134,7 +132,6 @@ img{
     padding: 2px;
 }
 
-/*-------------------------SECCION VENDER-------------*/
 .venta_imagen{
     width: 300px;
 }
@@ -156,13 +153,13 @@ img{
     flex-direction: column;
     align-items: center;
 }
-/*---------------------CARRITO----------------*/
+
 .añadir-carrito{
     background-color: rgb(0, 187, 0);
     color: white;
     padding: 1px;
 }
-/*-------------------FORMULARIO----------------*/
+
 .formulario{
     display: flex;
     flex-direction: column;
@@ -185,7 +182,7 @@ img{
 .imagentrato{
     border: none;
 }
-/*-------------------FOOTER---------------*/
+
 span{
     color: rgb(45, 118, 201);
     text-decoration: underline;
