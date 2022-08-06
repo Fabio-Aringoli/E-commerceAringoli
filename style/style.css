@@ -5,15 +5,6 @@
     letter-spacing: 1.5px;
 }
 
-header{
-    background-color: rgb(238, 85, 85);
-    border: 1px solid black;
-    padding: 15px;  
-    position: sticky; 
-    top: 0px;
-    
-}
-
 .carrusel_principal{
     width: auto;
     height: 350px;
@@ -30,39 +21,8 @@ header{
 }
 
 nav{
-    display: grid;
-}
-
-ul{
-  margin: 1.5px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-ul li{
-    list-style-type: none;  
-}
-
-a {
-    text-decoration: none;
-    letter-spacing: 2px;
-    color: black; 
-    padding: 4px;
-}
-
-a:hover{
-    color: rgb(218, 15, 15);
-    text-decoration: underline;
-    height: 30px;
-    width: 30px;
-    background-color: white; 
-    box-shadow: 5px 5px rgb(218, 15, 15);
-    border: 1px solid rgb(218, 15, 15);
-    border-radius: 25%;
-    padding: 5px;
-    transition: all 1s;
+    position: sticky;
+    top: 0px;
 }
 
 h1{
