@@ -5,25 +5,10 @@
     letter-spacing: 1.5px;
 }
 
-.carrusel_principal{
-    width: auto;
-    height: 350px;
-    text-align:center;
-    color: white;
-    background-color: blueviolet;
-    border: 5px solid black;
+body{
+    background-color: lightgoldenrodyellow;
 }
 
-.span_carrusel{
-    color: white;
-    background-color: black;
-    padding: 2px;
-}
-
-nav{
-    position: sticky;
-    top: 0px;
-}
 
 h1{
     text-align: center;
@@ -54,51 +39,15 @@ p{
     font-weight: 700;
 }
 
-img{
-    margin: 25px;
-    border: 3px solid lightgray;
-    width: 200px;
-    height: 190px;   
+
+a img{
+    height: 80px;
+    width: 80px;
 }
 
-.producto-base{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    height: 395px;
-    width: 300px;
-    border: 3px solid lightgray;
-    padding: 5px;
-    margin: 28px;
-    border-radius: 20%;
-}
-
-.producto-base:hover{
-    transition: all .4s;
-    box-shadow: 0px 10px 15px rgb(218, 15, 15);
-}
-
-.productos-imagenes{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.fondo-p-imagen{
-    background-color: lightgray;
-    padding: 2px;
-}
 
 .venta_imagen{
     width: 300px;
-}
-
-#texto_venta{
-    display: inline-block;
-    vertical-align: bottom;
 }
 
 .vender_button{
@@ -134,14 +83,6 @@ img{
     padding: .3em;
 }
 
-.tratohecho{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imagentrato{
-    border: none;
-}
 
 span{
     color: rgb(45, 118, 201);
@@ -162,4 +103,12 @@ footer{
     background-color: rgb(238, 85, 85);
     color: rgb(255, 255, 255);
     border: 1px solid black;
+    width: auto
+}
+
+@media (max-width: 768px){
+   .card{
+    display: flex;
+    flex-direction: row;
+   }
 }
