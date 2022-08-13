@@ -1,0 +1,13 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.objetos_formularios{
+    margin: .7em;
+    padding: .3em;
+}
