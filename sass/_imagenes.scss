@@ -9,3 +9,9 @@ a{
 .venta_imagen{
     width: 300px;
 }
+
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
