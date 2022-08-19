@@ -9,6 +9,11 @@ body {
   background-color: lightgoldenrodyellow;
 }
 
+.col {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
   background-color: #dc3545;
   color: rgb(255, 255, 255);
@@ -36,7 +41,6 @@ h2 {
 
 h3 {
   text-align: center;
-  margin: 1em;
 }
 
 p {
@@ -63,6 +67,12 @@ a img {
   width: 80px;
 }
 
+.img-nosotros {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 .venta_imagen {
   width: 300px;
 }
@@ -85,6 +95,10 @@ a img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.boton-vender {
+  margin: 20px;
 }
 
 @media (max-width: 768px) {
