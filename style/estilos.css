@@ -114,6 +114,7 @@ a img {
   .card {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   .card:hover {
     border: 3px outset #a22;
