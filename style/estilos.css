@@ -10,15 +10,14 @@ body {
 }
 
 footer {
-  background-color: #dc3545;
-  color: rgb(255, 255, 255);
-  border: 1px solid black;
+  background-color: #212529;
+  border: 1px solid #212529;
   width: auto;
 }
 footer p {
   text-align: center;
-  color: black;
-  background-color: #dc3545;
+  color: white;
+  background-color: #212529;
   letter-spacing: 0.5px;
   font-weight: 300;
   margin: 1vh;
@@ -40,9 +39,9 @@ main h2 {
 article h2 {
   text-align: center;
   font-weight: 500;
-  border: 2px solid black;
-  color: black;
-  background-color: rgb(238, 85, 85);
+  border: 2px solid #212529;
+  color: white;
+  background-color: #3f5061;
   padding: 10px;
   margin: 30px auto;
 }
@@ -81,6 +80,17 @@ a img {
   width: 300px;
 }
 
+.accordion small {
+  text-decoration: underline;
+}
+.accordion h3 {
+  margin: 10px;
+  text-decoration: underline;
+}
+.accordion ul li {
+  padding: 25px;
+}
+
 .formulario {
   display: flex;
   flex-direction: column;
@@ -89,14 +99,12 @@ a img {
   align-content: center;
   justify-content: space-around;
 }
-
-.bform, .bform-prueba {
+.formulario .bform, .formulario .bform-prueba {
   border: none;
   margin: 10px;
   box-shadow: 2px 2px 6px #000;
 }
-
-.objetos_formularios {
+.formulario .objetos_formularios {
   margin: 0.7em;
   padding: 0.3em;
 }
@@ -108,6 +116,56 @@ a img {
 }
 .div_ventas button {
   margin: 20px;
+}
+
+.registro-container {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  background-color: #212529;
+  color: white;
+  border-radius: 4px;
+}
+.registro-container img {
+  margin-bottom: 30px;
+  width: 150px;
+  height: 150px;
+}
+.registro-container h1 {
+  color: white;
+}
+.registro-container .controls {
+  width: 100%;
+  background-color: #212529;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid lightgoldenrodyellow;
+  border-radius: 4px;
+  font-size: 1em;
+}
+.registro-container p {
+  height: 40px;
+  font-size: 18px;
+}
+.registro-container a {
+  color: white;
+  text-decoration: none;
+}
+.registro-container a:hover {
+  color: rgb(243, 243, 183);
+  text-decoration: underline;
+}
+.registro-container .boton {
+  width: 100%;
+  background: lightgoldenrodyellow;
+  border: none;
+  padding: 12px;
+  margin: 16px 0;
+  color: #212529;
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {

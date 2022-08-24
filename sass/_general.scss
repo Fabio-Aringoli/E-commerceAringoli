@@ -11,12 +11,11 @@ body{
 
 footer{
     background-color:$colorsecundario;
-    color: rgb(255, 255, 255);
-    border: 1px solid black;
+    border: 1px solid #212529;
     width: auto;
     p{
         text-align: center;
-        color: black;
+        color: white;
         background-color:$colorsecundario;
         letter-spacing: 0.5px;
         font-weight: 300;

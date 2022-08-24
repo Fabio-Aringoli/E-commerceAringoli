@@ -1,0 +1,55 @@
+.registro-container{
+ box-sizing: border-box;
+ text-align: center;
+ width: 100%;
+ height: auto;
+ padding: 30px;
+ margin: auto;
+ background-color: $colorsecundario;
+ color: white;
+ border-radius: 4px;
+
+    img{
+       margin-bottom: 30px;
+       width: 150px;
+       height: 150px;
+    }
+
+    h1{
+       color: white;
+    }
+
+   .controls{
+       width: 100%;
+       background-color: $colorsecundario;
+       padding: 5px;
+       margin-bottom: 5px;
+       border: 1px solid $colorprincipal;
+       border-radius: 4px;
+       font-size: 1em
+    }
+
+    p{
+       height: 40px;
+       font-size: 18px;
+    }
+
+      a{
+       color: white;
+       text-decoration: none;
+        &:hover{  
+            color: rgb(243, 243, 183);
+            text-decoration: underline;   
+        }
+ }
+
+ .boton{
+    width: 100%;
+    background:$colorprincipal;
+    border:none;
+    padding: 12px;
+    margin: 16px 0;
+    color: $colorsecundario;
+    font-size: 16px;
+ }
+}

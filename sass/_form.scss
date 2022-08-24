@@ -7,21 +7,38 @@
     justify-content: space-around;
 }
 
+.accordion{
+    small{
+        text-decoration: underline;
+    }
+
+    h3{
+        margin: 10px;
+        text-decoration: underline;
+    }
+
+    ul li{
+        padding: 25px;
+    }
+}
+
 .formulario{
     @include formflex;   
-}
 
-.bform{
-    border: none;
-    margin: 10px;
-    box-shadow: 2px 2px 6px #000;
-}
 
-.bform-prueba{
-    @extend .bform;
-}
+ .bform{
+     border: none;
+     margin: 10px;
+     box-shadow: 2px 2px 6px #000;
+ }
 
-.objetos_formularios{
-    margin: .7em;
-    padding: .3em;
+ .bform-prueba{
+     @extend .bform;
+ }
+
+ .objetos_formularios{
+     margin: .7em;
+     padding: .3em;
+ }
+
 }
