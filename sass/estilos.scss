@@ -4,7 +4,7 @@
 @import "imagenes";
 @import "form";
 @import "ventas";
-@import "singup";
+@import "signup";
 
 @media (max-width: 768px){
     .card{
@@ -22,11 +22,11 @@
     width: 150px;
    }
 
-   h2{
-    width: 100%
+   .registro-container{
+    width: 100%;
    }
 
-   @media (max-width: 350px) {
-    
+   h2{
+    width: 100%
    }
 }

@@ -50,7 +50,10 @@ h3 {
   text-align: center;
 }
 
-h3 span {
+h4 {
+  text-align: center;
+}
+h4 span {
   color: rgb(45, 118, 201);
   text-decoration: underline;
 }
@@ -109,6 +112,11 @@ a img {
   padding: 0.3em;
 }
 
+.accordion-button {
+  background-color: #212529;
+  color: lightgoldenrodyellow;
+}
+
 .div_ventas {
   display: flex;
   flex-direction: column;
@@ -121,13 +129,14 @@ a img {
 .registro-container {
   box-sizing: border-box;
   text-align: center;
-  width: 100%;
+  width: 100vh;
   height: auto;
   padding: 30px;
   margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
   background-color: #212529;
   color: white;
-  border-radius: 4px;
 }
 .registro-container img {
   margin-bottom: 30px;
@@ -180,6 +189,9 @@ a img {
   }
   .card-text {
     width: 150px;
+  }
+  .registro-container {
+    width: 100%;
   }
   h2 {
     width: 100%;

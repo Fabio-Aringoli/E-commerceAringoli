@@ -8,13 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/estilos.css">
     <link rel="icon" href="../imagenes/logo.jpg" alt="Logo">
-    <title>Ventas</title>
-    <meta name="description" content="Seccion para vender tus productos en nuestro sitio web">
+    <title>Registro</title>
+    <meta name="description" content="¡Registrate en Todo Comercio!">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo.jpg" alt="Logo"></a>
+          <a class="navbar-brand" href="../index.html"><img src="../imagenes/logo.jpg"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,20 +37,24 @@
                 <a class="nav-link" href="./signup.html">Registrarse</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
-              <button class="btn btn-outline-light" type="submit">Buscar</button>
-            </form>
           </div>
         </div>
       </nav>
-    <h1>¡Nos alegramos de que estés acá!</h1>
-    <div class="div_ventas">
-        <img src="../imagenes/ventasimg.jpg" alt="" class="venta_imagen">
-        <p id="texto_venta">¿Estás buscando donde vender tus objetos? Este es el lugar, utiliza el botón "VENDER" y sigue los pasos.</p>
-        <button type="button" class="btn btn-outline-success">Vender</button>
-    </div>
-    
+        <section class="registro-container">
+          <article>
+            <form>
+             <a href="https://todocomercio.netlify.app/"><img src="../imagenes/logo.jpg" alt="Logo"></a>
+             <h1>Registro</h1>
+             <input class="controls" type="text" name="name" required placeholder="Nombre">
+             <input class="controls" type="text" name="lastname" required placeholder="Apellido">
+             <input class="controls" type="email" name="E-mail" required placeholder="Ejemplo@gmail.com">
+             <input class="controls" type="password" name="contraseña" required placeholder="Contraseña">
+             <p>Estoy de acuerdo con <a href="./nosotros.html">Terminos y Concidiones</a></p>
+             <input class="boton" type="submit" value="Registrar">
+             <p><a href="#">¿Ya estas registrado?</a></p>
+            </form>
+          </article>
+        </section>
     <footer>
       <p>San Isidro - Buenos Aires</p>
       <p>República Argentina</p>
